@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+nav li{
+
+  display: inline;
+}
+
+nav a{
+  display: inline-block;
+  padding: .5em;
+  color: white;
+  text-decoration: none;
+
+}
+
+nav a:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.main-nav{
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: lighter;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3)
+}
+.title-name{
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-family: sans-serif;
+  color: white;
+
+}
+
+.title-name-large{
+
+}
+
+.main-nav li {
+  padding: 0 5%;
+}
+ul{
+  margin: 0;
+}
+.main-header {
+  background-image: url(../img/header.jpg);
+  background-color: rgba(0, 0, 0, 0.2);
+  background-blend-mode: multiply;
+  background-size:cover
+  padding-bottom 30px;
+}
